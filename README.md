@@ -1,4 +1,4 @@
-# Custom-CNN-based-Image-Classification-in-PyTorch
+# My-CNN-based-Image-Classification-in-PyTorch
 Practice following the tutorial
 
 본 프로젝트에서는 **YongHye Kwon(@developer0hye)** 님의 튜토리얼을 따라 **Image Classifier**를 만들어본다.
