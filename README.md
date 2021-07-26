@@ -11,7 +11,7 @@ Practice following the tutorial
 ## Setup
 
 ### Custom Dataset
-본 프로젝트에서는 게임 **"앙상블 스타즈"**의 등장 인물인 **"이즈미"**와 **"코가"**를 분류해본다.
+본 프로젝트에서는 게임 **"앙상블 스타즈"** 의 등장 인물인 **"이즈미"** 와 **"코가"** 를 분류해본다.
 
 #### 앙상블 스타즈
 ![EnsenbleStars](https://user-images.githubusercontent.com/87509229/126755746-6ae341e9-b880-4e76-9e98-c72b2dd0957e.jpg)
@@ -70,7 +70,7 @@ PyTorch가 제공하는 Dataset, DataLoader 클래스를 사용하면 데이터 
 
 `__getitem__()`: 특정 데이터를 읽고자 할 때 사용할 함수이다. 우리가 준비한 Custom Dataset에서 해당 데이터를 읽고 반환한다. 즉, 사용자는 읽어온 데이터로 어떤 작업을 수행하려는건지 파악하고 그에 맞춰 함수의 반환값을 사용자화하면 된다.  
 
-`__len__()`: 
+`__len__()`: 클래스를 구성하는 원소의 개수를 얻을 수 있는 함수이다. 본 프로젝트의 Dataset 클래스는 이미지의 집합이므로, 이 `__len__()`함수는 데이터셋에 존재하는 이미지 데이터의 개수를 반환한다.
 
 위 함수들은 모두 파이썬이 제공하는 빌트인 함수로서, 매직 메서드(magic method) 또는 던더 메서드(dunder method; double-under)라고 부른다. 이외에도 `__add__()`,  `__sub__()` 등 다양한 메서드가 존재한다. 
 https://docs.python.org/ko/3.7/reference/datamodel.html#special-method-names
